@@ -1,0 +1,225 @@
+/*navigation-wrapper*/
+
+.navigation-bar {
+    height: 60px;
+}
+
+    /* grid container*/
+.navigation-bar {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 140px;
+}
+
+.navigation-bar > .logo-codepen img {
+    width: 180px;
+    height: 100%;
+    align-items: left;
+    
+}
+
+
+.navigation-bar> .explore-section {
+    font-family: "Outfit", sans-serif;
+    width: 600px;
+    height: 50px;
+    text-align: left;
+    align-items: end;
+    font-size: 1.2em;
+}
+
+.navigation-bar > .explore-section >.start-explore {
+    align-items: start;
+}
+
+.navigation-bar > .explore-section >.start-explore > .explore {
+    font-size: 1.0em;
+    color: gold;
+}
+
+    /*grid-container-center*/
+.explore-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+    width: 500px;
+
+}
+
+.explore-section > .down-explore {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+
+}
+
+.navigation-bar > .explore-section >.down-explore > .collections {
+    margin-right: 50px;
+}
+
+
+    /*grid-container-right*/
+.navigation-bar> .right-section {
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+}
+
+.navigation-bar> .right-section> .log-in {
+    grid-gap: 3px;
+}
+
+.navigation-bar> .right-section> .create {
+    background-color: #312f2f;
+    border-radius: 4px;
+    font-size: 1.1em;
+    padding: 15px;
+    width: 90px;
+    color: whitesmoke;
+}
+
+.navigation-bar> .right-section> .create i {
+    color:#36945d;
+}
+
+.navigation-bar> .right-section> .icon-search i {
+    font-size: 1.6em;
+    margin-left: 12px;
+}
+
+
+.navigation-bar> .right-section> .log-in {
+    background-color: #312f2f;
+    border-radius: 4px;
+    font-size: 1.1em;
+    padding: 15px;
+    width: 70px;
+    color: whitesmoke;
+    margin-right: 15px;
+}
+
+.navigation-bar> .right-section> .sign-up {
+    background-color: #312f2f;
+    border-radius: 4px;
+    font-size: 1.1em;
+    padding: 15px;
+    width: 80px;
+    color: whitesmoke;
+    justify-content: center;
+}
+
+
+/*center-wrapper*/
+.center-body {
+    height: 550px;
+    background: rgb(73,73,74);
+    background: linear-gradient(149deg, rgba(73,73,74,1) 0%, rgba(31,31,32,1) 47%, rgba(25,27,27,1) 100%);
+ }
+
+.center-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-body> .right-side img {
+    width: 600px;
+    background-position: right;
+}
+
+
+    /*grid-container-center*/
+.center-body > .left-side > .text-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    width: 500px;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    padding: 10px 80px 10px 80px;
+    justify-content: start;
+}
+
+.center-body> .left-side .link-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+    /*buttoms styles*/
+.center-body > .left-side > .link-content > .link-sign {
+    font-size: 1.6em;
+    border-radius: 4px; 
+    background-color:#36945d;
+    color:rgb(10, 10, 10);       
+    margin-left: 80px;
+    padding: 18px;   
+    justify-self: center;
+}
+
+.center-body > .left-side > .link-content > .link-learn {
+    font-size: 1.6em;
+    border-radius: 4px;
+    background-color:#141414;
+    color:#cbcbcb;
+    padding: 20px;
+    justify-self: center;
+}
+
+
+/*footer-wrapper*/
+    /*grid-container-footer*/
+.footer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+    font-size: 1.4em;
+}
+
+.footer-section > .teams-column {
+    background-color:#312f2f;
+    color:#cbcbcb;
+    padding: 20px 40px;
+    width: 290px;
+    border-radius: 2px;
+    border: 1px solid #e7e7e7;
+}
+
+.footer-section > .education-section{
+    background-color:#312f2f;
+    color:#cbcbcb;
+    padding: 20px 40px;
+    width: 290px;
+    border-radius: 2px;
+    border: 1px solid #e7e7e7;
+}
+
+.footer-section > .privacy-section{
+    background-color:#312f2f;
+    color:#cbcbcb;
+    padding: 20px 40px;
+    width: 290px;
+    border-radius: 2px;
+    border: 1px solid #e7e7e7;
+}
+
+.footer-section > .writing-section{
+    background-color:#312f2f;
+    color:#cbcbcb;
+    padding: 20px 40px;
+    width: 290px;
+    border-radius: 2px;
+    border: 1px solid #e7e7e7;
+}
+

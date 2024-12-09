@@ -1,0 +1,13 @@
+body {
+    color: #cbcbcb;
+    background-color: black;
+    font-family: "Outfit", sans-serif;
+    
+}
+strong {
+    color:white;
+}
+
+.center-body> .right-side strong {
+    color: rgb(33, 163, 180);
+}
